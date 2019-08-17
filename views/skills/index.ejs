@@ -12,7 +12,6 @@
     <thead>
       <tr>
         <th>Skill</th>
-        <th>Description</th>
         <th>Current Level</th>
       </tr>
     </thead>
@@ -20,8 +19,8 @@
       <% skills.forEach(function(s) { %>
       <tr>
         <td><%= s.skill %></td>
-        <td><%= s.description %></td>
         <td><%= s.level %></td>
+        <td><%= s.details %></td>
       </tr>
       <% }) %>
     </tbody>
