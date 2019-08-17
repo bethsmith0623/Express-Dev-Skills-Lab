@@ -7,11 +7,20 @@ a {
   color: #00B7FF;
 }
 
-table {
-  border: 5px solid black;
-  border-radius: 2px;
+table, td, th {
+  border-collapse: collapse;
+  border: 2px solid black;
+  justify-items: center;
+
 }
 
-tbody {
-  justify-content: center:
+#level, #details {
+  text-align: center;
+}
+
+#details {
+  background-color: lightgrey;
+  border: 2px solid grey;
+  border-radius: 5px;
+  align-content: center;
 }

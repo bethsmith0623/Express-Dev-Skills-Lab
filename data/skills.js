@@ -1,6 +1,7 @@
 const skills = [
   {skill: 'HTML', level: '3'},
   {skill: 'CSS', level: '3'},
+  {skill: 'CSS Bootstrap', level: '0'},
   {skill: 'JavaScript', level: '3'},
   {skill: 'MongoDB', level: '1'},
   {skill: 'Mongoose', level: '2'},
