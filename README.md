@@ -1,7 +1,7 @@
 # Express Developer Skills Lab
 
 
-_Part 1_
+*_Part 1_*
 
 GOAL: To put in a rep doing everything we did in the Express - Routers and Controllers lesson.
 
@@ -26,7 +26,8 @@ HINTS:
 
 
 
-_Part 2_
+
+*_Part 2_*
 
 GOAL: to put in a rep doing everything that we did in the Express - Middleware lesson by adding the following functionality to the express-dev-skills lab:
 
