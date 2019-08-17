@@ -6,3 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
+
+table {
+  border: 5px solid black;
+  border-radius: 2px;
+}
+
+td {
+  justify-content: center:
+}
