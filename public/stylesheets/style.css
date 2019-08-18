@@ -24,3 +24,7 @@ table, td, th {
   border-radius: 5px;
   align-content: center;
 }
+
+.col-6 {
+  display: grid;
+}

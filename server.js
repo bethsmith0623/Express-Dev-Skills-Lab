@@ -14,12 +14,6 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.get('/skills', function(req, res){
-  res.render('skills/index', {
-    skills: skillsDb.getAll()
-  });
-});
-
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

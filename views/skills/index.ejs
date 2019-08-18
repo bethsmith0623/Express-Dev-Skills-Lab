@@ -5,28 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" 
+  integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" 
+  crossorigin="anonymous">
   <title>Dev Skills</title>
+  <style>
+    .table {width: 50%;}
+    .head {border: 3px solid purple; align-items: center;}
+    .col-12 {color: teal; text-align: center}
+  </style>
 </head>
 <body>
+  <div class="col-12">
   <h2>My Growing Developer Skills</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Skill</th>
-        <th>Current Level</th>
-        <th>More Details</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% skills.forEach(function(s) { %>
-        <tr>
-          <td id="skill"><%= s.skill %></td>
-          <td id="level"><%= s.level %></td>
-          <td><input type="submit" id="details"></td>
-          
-      </tr>
-      <% }) %>
-    </tbody>
-  </table>
+  </div>
+
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6"></div>
+      <table class="table table-bordered">
+        <thead class="head">
+          <tr>
+            <th class="head">Skill</th>
+            <th class="head">Current Level</th>
+            <th class="head">Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% skills.forEach(function(s) { %>
+            <tr>
+              <td id="skill"><%= s.skill %></td>
+              <td id="level"><%= s.level %></td>
+              <td><input type="submit" id="details"></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </body>
 </html>
