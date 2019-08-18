@@ -1,0 +1,28 @@
+<body>
+  <h2>New Skill</h2>
+
+  <form action="/skills" method="POST" autocomplete="off">
+    <label for="skill">Skill:
+      <input type="text" name="skill" id="newSkillName">
+    </label>
+    <label for="level"> Level:
+      <select name="number" id="level">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </label>
+    <label for="description">Description:
+      <input type="text" name="description" id="newSkillDesc">
+    </label>
+    <button type="submit btn">Save Skill</button>
+  </form>
+</body>
