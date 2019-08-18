@@ -34,6 +34,7 @@
           <tr>
             <th class="head">Skill</th>
             <th class="head">Current Level</th>
+            <th class="head">Delete Skill</th>
           </tr>
         </thead>
         <tbody>
@@ -41,6 +42,9 @@
             <tr>
               <td id="skill"><a href="/skills/<%= idx %>"><%= s.skill %></a></td>
               <td id="level"><%= s.level %></td>
+              <td><form action="/skills/<%= idx %>?_method=DELETE" class="delete-form" method="POST">
+              <button type="submit">X</button>
+              </form></td>
             </tr>
           <% }) %>
         </tbody>
