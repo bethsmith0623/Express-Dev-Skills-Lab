@@ -5,6 +5,8 @@ body {
 
 a {
   color: #00B7FF;
+  margin: 2px;
+  padding: 2px;
 }
 
 table, td, th {
