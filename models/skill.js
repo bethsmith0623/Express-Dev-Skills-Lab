@@ -15,7 +15,7 @@ const skills = [
 
 module.exports = {
   getAll,
-  getOne
+  getOne,
   create
 };
 
