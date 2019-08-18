@@ -6,8 +6,8 @@
 GOAL: To put in a rep doing everything we did in the Express - Routers and Controllers lesson.
 
 REQUIREMENTS:
-!* Scaffold a new app named "express-dev-skills" using express generator.
-!* Be sure to create an array of data representing some of your developer skills. The specific properties are up to you.
+* Scaffold a new app named "express-dev-skills" using express generator.
+* Be sure to create an array of data representing some of your developer skills. The specific properties are up to you.
 * Implement _index_ functionality for the skills resource.
 * Implement _show_ functionality for the skills resource.
 
