@@ -19,6 +19,9 @@
   <div class="col-12">
   <h2>My Growing Developer Skills</h2>
   </div>
+  <div class="col-12">
+  <p>Click a skill to see the description.</p>
+  </div>
 
   <div class="row">
     <div class="col-3"></div>
@@ -28,15 +31,13 @@
           <tr>
             <th class="head">Skill</th>
             <th class="head">Current Level</th>
-            <th class="head">Details</th>
           </tr>
         </thead>
         <tbody>
-          <% skills.forEach(function(s) { %>
+          <% skills.forEach(function(s, idx) { %>
             <tr>
-              <td id="skill"><%= s.skill %></td>
+              <td id="skill"><a href="/skills/<%= idx %>"><%= s.skill %></a></td>
               <td id="level"><%= s.level %></td>
-              <td><input type="submit" id="details"></td>
             </tr>
           <% }) %>
         </tbody>
