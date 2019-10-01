@@ -17,8 +17,13 @@ module.exports = {
   getAll,
   getOne,
   create, 
-  deleteOne
+  deleteOne,
+  update
 };
+
+function update(id, skill) {
+  skills[id] = skill;
+}
 
 function deleteOne(id) {
   skills.splice(id, 1);

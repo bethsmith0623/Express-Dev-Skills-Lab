@@ -1,0 +1,16 @@
+<body>
+  <h2>Edit Skill</h2>
+
+  <form action="/skills/<%= skillIdx %>?_method=PUT" method="POST" autocomplete="off">
+    <label for="skill">Skill:
+      <input type="text" name="skill" value="<%= skills.skill %>">
+    </label>
+    <label for="level"> Level:
+      <input type="number" name="level" value="<%= skills.level %>">
+    </label>
+    <label for="description">Description:
+      <input type="text" name="description" value="<%= skills.description %>">
+    </label>
+    <button type="submit btn">Update Skill</button>
+  </form>
+</body>
